@@ -33,6 +33,10 @@ body {
   cursor: pointer;
 }
 
+.fa-trash-alt{
+  cursor: pointer;
+}
+
 h1 {
   background: #2980b9;
   color: white;
@@ -54,6 +58,10 @@ li {
   height: 40px;
   line-height: 40px;
   color: #666;
+}
+
+li:hover {
+  cursor: pointer;
 }
 
 li:nth-child(2n) {
